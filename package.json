@@ -1,0 +1,25 @@
+{
+  "name": "web-ui",
+  "version": "0.1.0",
+  "description": "UI components for web applications ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fczuardi/web-ui.git"
+  },
+  "keywords": [
+    "components",
+    "react",
+    "ui",
+    "widgets"
+  ],
+  "author": "Fabricio Campos Zuardi",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fczuardi/web-ui/issues"
+  },
+  "homepage": "https://github.com/fczuardi/web-ui#readme"
+}
