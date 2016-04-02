@@ -27,6 +27,15 @@ const FILESETS = [
             'PaginationButton.js',
             'PaginationButton.scss'
         ]
+    },
+    {
+        'commit': '16acaaf97cedf2a68b4761cd030baf6acf9b1c85',
+        'from': `tests/${NAV_SET}`,
+        'to': `${CURRENT_DIR}/src/crave/test/${NAV_SET}`,
+        'files': [
+            'Pagination.spec.js',
+            'PaginationButton.spec.js'
+        ]
     }
 ];
 
