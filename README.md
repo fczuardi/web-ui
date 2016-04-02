@@ -1,4 +1,5 @@
 [![License](https://img.shields.io/badge/license-AGPL--3.0-lightgrey.svg)](https://github.com/fczuardi/roboviario/blob/master/LICENSE)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 # web-ui
 ## UI components for web applications.
