@@ -21,5 +21,8 @@ easy to find out what's missing just by reading the code ;)
 
 ## Screenshots
 
+- [![screen shot 2016-04-02 at 6 39 33 pm](https://cloud.githubusercontent.com/assets/7760/14229176/db1389d6-f902-11e5-80bd-6dc7558cb221.png)][/nav/Pagination]
+
+
 [/nav/Pagination]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/nav/Pagination.js
 [/nav/PaginationButton]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/nav/PaginationButton.js
