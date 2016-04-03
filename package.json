@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sync:crave": "tasks/sync-crave.js",
+    "ppp": "npm version patch && npm publish && git push origin master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
