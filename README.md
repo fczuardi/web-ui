@@ -17,13 +17,21 @@ easy to find out what's missing just by reading the code ;)
 
 ## React presentational components
 
-- [Pagination][/nav/Pagination]
-    - [PaginationButton][/nav/PaginationButton]
+- [PaginationButton][/nav/PaginationButton]
+    - [Pagination][/nav/Pagination]
+- [DropdownItem][/inputs/DropdownItem]
+- [DropdownNotificationItem][/inputs/DropdownNotificationItem]
+    - [Dropdown][/inputs/Dropdown]
 
 ## Screenshots
 
-- [![screen shot 2016-04-02 at 6 39 33 pm](https://cloud.githubusercontent.com/assets/7760/14229176/db1389d6-f902-11e5-80bd-6dc7558cb221.png)][/nav/Pagination]
+[![screen shot 2016-04-02 at 6 39 33 pm](https://cloud.githubusercontent.com/assets/7760/14229176/db1389d6-f902-11e5-80bd-6dc7558cb221.png)][/nav/Pagination]
+
+[![screen shot 2016-04-03 at 7 38 20 pm](https://cloud.githubusercontent.com/assets/7760/14235405/c2fc88b2-f9d3-11e5-8fcb-2bac6ada1252.png)][/inputs/Dropdown]
 
 
 [/nav/Pagination]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/nav/Pagination.js
 [/nav/PaginationButton]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/nav/PaginationButton.js
+[/inputs/DropdownItem]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/inputs/DropdownItem.js
+[/inputs/DropdownNotificationItem]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/inputs/DropdownNotificationItem.js
+[/inputs/Dropdown]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/inputs/Dropdown.js

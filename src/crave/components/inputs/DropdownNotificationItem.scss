@@ -1,0 +1,22 @@
+@import "~styles/foundation";
+@import "~styles/colors";
+
+.dropdown-notification-item {
+  font-size: rem-calc(12);
+  font-weight: 600;
+  background-color: $dark-yellow;
+}
+.dropdown-notification-item-link{
+  color: white;
+}
+.dropdown-notification-item-icon {
+  margin-right: rem-calc(5);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-notification-item:hover {
+  background-color: $primary-yellow;
+}
+.dropdown-notification-item:hover .dropdown-notification-item-link {
+  color: white;
+}

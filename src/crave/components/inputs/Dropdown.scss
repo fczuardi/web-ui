@@ -1,0 +1,15 @@
+@import "~styles/foundation";
+@import "~styles/colors";
+
+.dropdown {
+  background-color: $lighter-tint;
+  border: solid 1px $neutral-tint;
+  border-radius: rem-calc(6);
+  box-shadow: -5px 5px 15px 0 rgba(0, 0, 0, 0.1);
+}
+.dropdown-header {
+  border-bottom: solid 1px $neutral-tint;
+}
+.dropdown-body {
+  list-style: none;
+}

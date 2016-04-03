@@ -1,0 +1,22 @@
+@import "~styles/foundation";
+@import "~styles/colors";
+
+.dropdown-item {
+  font-size: rem-calc(14);
+  position: relative;
+}
+.dropdown-item-link{
+  display: block;
+  padding: rem-calc(10);
+  color: $medium-tint;
+}
+.dropdown-item-link--light{
+  font-weight: 300;
+}
+
+.dropdown-item:hover {
+  background-color: white;
+}
+.dropdown-item:hover .dropdown-item-link{
+  color: $primary-blue;
+}

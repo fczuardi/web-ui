@@ -16,7 +16,31 @@ require('shelljs/global');
 const CURRENT_DIR = pwd();
 const CRAVE_ROOT = process.env.CRAVE_ROOT;
 const NAV_SET = 'components/nav';
+const INPUTS_SET = 'components/inputs';
 const FILESETS = [
+    {
+        'commit': '193ca6352a8e4f4b0ac00ba06d78e744dc444333',
+        'from': `src/${INPUTS_SET}`,
+        'to': `${CURRENT_DIR}/src/crave/${INPUTS_SET}`,
+        'files': [
+            'Dropdown.js',
+            'Dropdown.scss',
+            'DropdownItem.js',
+            'DropdownItem.scss',
+            'DropdownNotificationItem.js',
+            'DropdownNotificationItem.scss'
+        ]
+    },
+    {
+        'commit': '193ca6352a8e4f4b0ac00ba06d78e744dc444333',
+        'from': `src/${INPUTS_SET}`,
+        'to': `${CURRENT_DIR}/src/crave/test/${INPUTS_SET}`,
+        'files': [
+            'Dropdown.spec.js',
+            'DropdownItem.spec.js',
+            'DropdownNotificationItem.spec.js'
+        ]
+    },
     {
         'commit': '16acaaf97cedf2a68b4761cd030baf6acf9b1c85',
         'from': `src/${NAV_SET}`,
