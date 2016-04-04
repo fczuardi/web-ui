@@ -38,12 +38,12 @@ Click on an image to see the source of that component:
 
 ![screen shot 2016-04-03 at 9 49 10 pm](https://cloud.githubusercontent.com/assets/7760/14236105/227b5630-f9e6-11e5-9008-e940bab196bd.png)
 
-[/nav/Pagination]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/nav/Pagination.js
-[/nav/PaginationButton]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/nav/PaginationButton.js
-[/inputs/DropdownItem]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/inputs/DropdownItem.js
-[/inputs/DropdownNotificationItem]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/inputs/DropdownNotificationItem.js
-[/inputs/Dropdown]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/inputs/Dropdown.js
-[/icons/AnonymousUserIcon]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/icons/AnonymousUserIcon.js
-[/users/UserLabel]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/users/UserLabel.js
-[/users/UserLabelWithIcon]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/users/UserLabelWithIcon.js
-[/users/UserMenu]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/users/UserMenu.js
+[/nav/Pagination]: https://github.com/fczuardi/web-ui/blob/master/src/crave/src/components/nav/Pagination.js
+[/nav/PaginationButton]: https://github.com/fczuardi/web-ui/blob/master/src/crave/src/components/nav/PaginationButton.js
+[/inputs/DropdownItem]: https://github.com/fczuardi/web-ui/blob/master/src/crave/src/components/inputs/DropdownItem.js
+[/inputs/DropdownNotificationItem]: https://github.com/fczuardi/web-ui/blob/master/src/crave/src/components/inputs/DropdownNotificationItem.js
+[/inputs/Dropdown]: https://github.com/fczuardi/web-ui/blob/master/src/crave/src/components/inputs/Dropdown.js
+[/icons/AnonymousUserIcon]: https://github.com/fczuardi/web-ui/blob/master/src/crave/src/components/icons/AnonymousUserIcon.js
+[/users/UserLabel]: https://github.com/fczuardi/web-ui/blob/master/src/crave/src/components/users/UserLabel.js
+[/users/UserLabelWithIcon]: https://github.com/fczuardi/web-ui/blob/master/src/crave/src/components/users/UserLabelWithIcon.js
+[/users/UserMenu]: https://github.com/fczuardi/web-ui/blob/master/src/crave/src/components/users/UserMenu.js
