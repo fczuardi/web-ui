@@ -34,6 +34,7 @@ easy to find out what's missing just by reading the code ;)
 
 [![screen shot 2016-04-03 at 7 38 20 pm](https://cloud.githubusercontent.com/assets/7760/14235405/c2fc88b2-f9d3-11e5-8fcb-2bac6ada1252.png)][/inputs/Dropdown]
 
+![screen shot 2016-04-03 at 9 49 10 pm](https://cloud.githubusercontent.com/assets/7760/14236105/227b5630-f9e6-11e5-9008-e940bab196bd.png)
 
 [/nav/Pagination]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/nav/Pagination.js
 [/nav/PaginationButton]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/nav/PaginationButton.js
