@@ -22,6 +22,11 @@ easy to find out what's missing just by reading the code ;)
 - [DropdownItem][/inputs/DropdownItem]
 - [DropdownNotificationItem][/inputs/DropdownNotificationItem]
     - [Dropdown][/inputs/Dropdown]
+- [AnonymousUserIcon][/icons/AnonymousUserIcon]
+- [UserLabel][/users/UserLabel]
+- [UserLabelWithIcon][/users/UserLabelWithIcon]
+    - [UserMenu][/users/UserMenu]
+
 
 ## Screenshots
 
@@ -35,3 +40,7 @@ easy to find out what's missing just by reading the code ;)
 [/inputs/DropdownItem]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/inputs/DropdownItem.js
 [/inputs/DropdownNotificationItem]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/inputs/DropdownNotificationItem.js
 [/inputs/Dropdown]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/inputs/Dropdown.js
+[/icons/AnonymousUserIcon]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/icons/AnonymousUserIcon.js
+[/users/UserLabel]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/users/UserLabel.js
+[/users/UserLabelWithIcon]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/users/UserLabelWithIcon.js
+[/users/UserMenu]: https://github.com/fczuardi/web-ui/blob/master/src/crave/components/users/UserMenu.js

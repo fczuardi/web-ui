@@ -1,0 +1,17 @@
+@import "~styles/foundation";
+@import "~styles/colors";
+
+.user-label {
+}
+.user-label-title{
+  color: $carbon;
+  font-weight: 600;
+  line-height: rem-calc(14);
+  margin-bottom: 0;
+
+}
+.user-label-subtitle{
+  font-size: rem-calc(10);
+  font-weight: 300;
+  margin-bottom: rem-calc(7);
+}
