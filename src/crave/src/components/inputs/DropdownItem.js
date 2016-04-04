@@ -1,17 +1,17 @@
 import React, {PropTypes} from 'react';
+import classNames from 'classnames';
 
 import classes from './DropdownItem.scss';
 
-const itemClassName = classes['dropdown-item'];
-const getLinkClassName = (props) => [
-  classes['dropdown-item-link'],
-  props.light ? classes['dropdown-item-link--light'] : ''
-].join(' ').trim();
-
 const DropdownItem = (props) => {
+  const itemClassName = classes['dropdown-item'];
+  const linkClassName = classNames(
+    classes['dropdown-item-link'],
+    { [classes['dropdown-item-link--light']]: props.light }
+  );
   return (
     <li className={itemClassName}>
-      <a className={getLinkClassName(props)} {...props}>
+      <a className={linkClassName} {...props}>
         {props.children}
       </a>
     </li>

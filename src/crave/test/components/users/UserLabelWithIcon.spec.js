@@ -14,8 +14,12 @@ describe('(Components/users) UserLabelWithIcon', function() {
 
     expect(vdom).to.equalJSX(
       <div className={'user-label-with-icon'}>
-        <AnonymousUserIcon className={'icon'} />
-        <UserLabel className={'label'} title={''} subtitle={''}/>
+        <div className={'icon'}>
+          <AnonymousUserIcon />
+        </div>
+        <div className={'label'}>
+          <UserLabel title={''} subtitle={''}/>
+        </div>
       </div>
     );
   });
@@ -34,8 +38,12 @@ describe('(Components/users) UserLabelWithIcon', function() {
 
     expect(vdom).to.equalJSX(
       <div className={'user-label-with-icon'}>
-        <AnonymousUserIcon className={'icon'} />
-        <UserLabel className={'label'} title={name} subtitle={username} />
+        <div className={'icon'}>
+          <AnonymousUserIcon />
+        </div>
+        <div className={'label'}>
+          <UserLabel title={name} subtitle={username} />
+        </div>
       </div>
     );
   });
@@ -55,9 +63,13 @@ describe('(Components/users) UserLabelWithIcon', function() {
 
     expect(vdom).to.equalJSX(
       <div className={'user-label-with-icon'}>
-        <i className={'wg-help notification-icon'} />
-        <AnonymousUserIcon className={'icon'} />
-        <UserLabel className={'label'} title={name} subtitle={username} />
+        <div className={'icon'}>
+          <AnonymousUserIcon />
+          <i className={'wg-help notification-icon'} />
+        </div>
+        <div className={'label'}>
+          <UserLabel title={name} subtitle={username} />
+        </div>
       </div>
     );
   });

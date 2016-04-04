@@ -2,14 +2,9 @@ import React, {PropTypes} from 'react';
 
 import classes from './UserLabel.scss';
 
-const getUserLabelClassName = (props) => [
-  'user-label',
-  props.className
-].join(' ').trim();
-
 const UserLabel = (props) => {
   return (
-    <div className={getUserLabelClassName(props)}>
+    <div>
       <p className={classes['user-label-title']}>{props.title}</p>
       <p className={classes['user-label-subtitle']}>{props.subtitle}</p>
     </div>

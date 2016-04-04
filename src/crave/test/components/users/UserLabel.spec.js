@@ -11,7 +11,7 @@ describe('(Components/users) UserLabel', function() {
     const vdom = tree.getRenderOutput();
 
     expect(vdom).to.equalJSX(
-      <div className={'user-label'}>
+      <div>
         <p className={'user-label-title'} />
         <p className={'user-label-subtitle'} />
       </div>
@@ -26,7 +26,7 @@ describe('(Components/users) UserLabel', function() {
     const vdom = tree.getRenderOutput();
 
     expect(vdom).to.equalJSX(
-      <div className={'user-label'}>
+      <div>
         <p className={'user-label-title'}>{name}</p>
         <p className={'user-label-subtitle'}>{userRank}</p>
       </div>

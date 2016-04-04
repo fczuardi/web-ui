@@ -21,4 +21,25 @@ describe('(Components/inputs) DropdownNotificationItem', function() {
       </li>
     );
   });
+  it('Should render onClick property and call onClick on click', function() {
+    const onClick = sinon.spy();
+    const tree = sd.shallowRender(
+      <DropdownNotificationItem onClick={onClick} />
+    );
+    const vdom = tree.getRenderOutput();
+    const aElement = tree.subTree('a').getRenderOutput();
+
+    expect(vdom).to.equalJSX(
+      <li className={'dropdown-item dropdown-notification-item'}>
+        <a className={'dropdown-item-link dropdown-notification-item-link'}
+          href={'#'}
+          onClick={onClick}
+        >
+          <i className={'wg-help dropdown-notification-item-icon'} />
+        </a>
+        </li>
+    );
+    aElement.props.onClick();
+    expect(onClick).to.have.been.called;
+  });
 });

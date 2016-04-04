@@ -10,30 +10,31 @@ const UserMenu = (props) => {
   let hasNotifications = props.notifications.length > 0;
   let {title, subtitle} = props;
   return (
-    <Dropdown
-      className={classes['user-menu']}
-      header={(
-        <UserLabelWithIcon
-          className={classes['user-menu-header']}
-          labelClassName={classes['user-menu-header-label']}
-          notifications={hasNotifications}
-          {...{title, subtitle}}
-        />
-      )}
-    >
-      {props.notifications.map(({label, ...other}, n) => (
-        <DropdownNotificationItem key={`n_${n}`} {...other}>
-          {label}
-        </DropdownNotificationItem>
-      ))}
-      {props.items.map(({label, ...other}, i) => {
-        return (
-          <DropdownItem key={`i_${i}`} {...other}>
+    <div className={classes['user-menu']}>
+      <Dropdown
+        header={(
+          <div className={classes['user-menu-header']}>
+            <UserLabelWithIcon
+              notifications={hasNotifications}
+              {...{title, subtitle}}
+            />
+          </div>
+        )}
+      >
+        {props.notifications.map(({label, ...other}, n) => (
+          <DropdownNotificationItem key={`n_${n}`} {...other}>
             {label}
-          </DropdownItem>
-        );
-      })}
-    </Dropdown>
+          </DropdownNotificationItem>
+        ))}
+        {props.items.map(({label, ...other}, i) => {
+          return (
+            <DropdownItem key={`i_${i}`} {...other}>
+              {label}
+            </DropdownItem>
+          );
+        })}
+      </Dropdown>
+    </div>
   );
 };
 

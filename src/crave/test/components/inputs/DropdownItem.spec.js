@@ -16,4 +16,18 @@ describe('(Components/inputs) DropdownItem', function() {
       </li>
     );
   });
+  it('Should render onClick property and call onClick on click', function() {
+    const onClick = sinon.spy();
+    const tree = sd.shallowRender(<DropdownItem onClick={onClick} />);
+    const vdom = tree.getRenderOutput();
+    const aElement = tree.subTree('a').getRenderOutput();
+
+    expect(vdom).to.equalJSX(
+      <li className={'dropdown-item'}>
+        <a className={'dropdown-item-link'} href={'#'} onClick={onClick} />
+      </li>
+    );
+    aElement.props.onClick();
+    expect(onClick).to.have.been.called;
+  });
 });

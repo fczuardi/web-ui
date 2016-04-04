@@ -15,18 +15,19 @@ describe('(Components/users) UserMenu', function() {
     const vdom = tree.getRenderOutput();
 
     expect(vdom).to.equalJSX(
-      <Dropdown
-        className={'user-menu'}
-        header={(
-          <UserLabelWithIcon
-            className={'user-menu-header'}
-            labelClassName={'user-menu-header-label'}
-            notifications={false}
-            title={''}
-            subtitle={''}
-          />
-        )}
-      />
+      <div className={'user-menu'}>
+        <Dropdown
+          header={(
+            <div className={'user-menu-header'}>
+              <UserLabelWithIcon
+                notifications={false}
+                title={''}
+                subtitle={''}
+              />
+            </div>
+          )}
+        />
+      </div>
     );
   });
 
@@ -49,21 +50,22 @@ describe('(Components/users) UserMenu', function() {
     const vdom = tree.getRenderOutput();
 
     expect(vdom).to.equalJSX(
-      <Dropdown
-        className={'user-menu'}
-        header={(
-          <UserLabelWithIcon
-            title={user.name}
-            subtitle={user.type}
-            className={'user-menu-header'}
-            labelClassName={'user-menu-header-label'}
-            notifications={false}
-          />
-        )}
-      >
-        <DropdownItem key={'i_0'}>foo</DropdownItem>
-        <DropdownItem key={'i_1'} href={'http://www.example.com'}>bar</DropdownItem>
-      </Dropdown>
+      <div className={'user-menu'}>
+        <Dropdown
+          header={(
+            <div className={'user-menu-header'}>
+              <UserLabelWithIcon
+                title={user.name}
+                subtitle={user.type}
+                notifications={false}
+              />
+            </div>
+          )}
+        >
+          <DropdownItem key={'i_0'}>foo</DropdownItem>
+          <DropdownItem key={'i_1'} href={'http://www.example.com'}>bar</DropdownItem>
+        </Dropdown>
+      </div>
     );
   });
 
@@ -90,24 +92,25 @@ describe('(Components/users) UserMenu', function() {
     const vdom = tree.getRenderOutput();
 
     expect(vdom).to.equalJSX(
-      <Dropdown
-        className={'user-menu'}
-        header={(
-          <UserLabelWithIcon
-            title={user.name}
-            subtitle={user.type}
-            className={'user-menu-header'}
-            labelClassName={'user-menu-header-label'}
-            notifications
-          />
-        )}
-      >
-        <DropdownNotificationItem key={'n_0'}>
-          {notifications[0].label}
-        </DropdownNotificationItem>
-        <DropdownItem key={'i_0'}>foo</DropdownItem>
-        <DropdownItem key={'i_1'} href={'http://www.example.com'}>bar</DropdownItem>
-      </Dropdown>
+      <div className={'user-menu'}>
+        <Dropdown
+          header={(
+            <div className={'user-menu-header'}>
+              <UserLabelWithIcon
+                title={user.name}
+                subtitle={user.type}
+                notifications
+              />
+            </div>
+          )}
+        >
+          <DropdownNotificationItem key={'n_0'}>
+            {notifications[0].label}
+          </DropdownNotificationItem>
+          <DropdownItem key={'i_0'}>foo</DropdownItem>
+          <DropdownItem key={'i_1'} href={'http://www.example.com'}>bar</DropdownItem>
+        </Dropdown>
+      </div>
     );
   });
 });
