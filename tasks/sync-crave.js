@@ -1,15 +1,9 @@
-#!/usr/bin/env node
+#!/bin/sh
+//bin/false || `which node || which nodejs` --harmony_destructuring --harmony_sloppy_let << `tail -n +2 $0`
 
 // # Sync Crave
 //
 // Copy components, themes and tests written for a project codenamed **crave**.
-//
-// ## Components list:
-//
-// ### Navigation
-//
-// - Pagination
-// - PaginationButton
 
 require('shelljs/global');
 
@@ -59,8 +53,7 @@ const SNAPSHOTS = [
 ];
 
 cd(CRAVE_ROOT);
-SNAPSHOTS.forEach((snapshot) => {
-    var {commit, branch, sets} = snapshot;
+SNAPSHOTS.forEach(({commit, branch, sets}) => {
     sets.forEach(({path, names}) => {
         names.forEach((name) => {
             let codeSrc = `src/${path}`;
