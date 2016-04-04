@@ -1,5 +1,5 @@
 #!/bin/sh
-//bin/false || `which node || which nodejs` --harmony_destructuring --harmony_sloppy_let << `tail -n +2 $0`
+':' //; exec "$(command -v nodejs || command -v node)" --harmony_destructuring --harmony_sloppy_let "$0" "$@"
 
 // # Sync Crave
 //
